@@ -1,0 +1,6 @@
+need to figure out how to remove the append item with the onclick!! 
+find out how to grab the appended child add delete.
+
+note: how practical is the onclick or should I use the eventlistener ?
+
+try to do the code with the eventlistener!

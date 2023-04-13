@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(2, 73, 23);
+}
+
+body {
+  background: url(/images/iceCubeBackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 60px;
+  height: 100vh;
+}
+#waterTrackerTitle {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+  text-shadow: 5px 2px 3px gray;
+}
+.waterDone {
+  font-size: 26px;
+}
+.circleBackGround {
+  width: 260px;
+  height: 260px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 30px auto;
+  box-shadow: inset 0 -0.5em 0.5em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.cupOfWater {
+  width: 90px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin: 0 40px 20px 40px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+button:hover {
+  background: rgba(85, 134, 85, 0.753);
+  color: #fff;
+}
+p {
+  font-size: 25px;
+  padding: 10px 0;
+  text-shadow: 3px 2px 2px gray;
+  margin-bottom: 20px;
+}
+.waterInput {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+h2 {
+  font-size: 40px;
+  text-shadow: 5px 2px 3px gray;
+}
+#invalidError {
+  font-size: 16px;
+}
+#input:hover {
+  background-color: darkgrey;
+}

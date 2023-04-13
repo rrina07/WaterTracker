@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water Tracker Take 3</title>
+    <link rel="stylesheet" href="/3rdWaterApp/style3.css" />
+  </head>
+  <body>
+    <div>
+      <h2 id="waterTrackerTitle">Water Tracker</h2>
+      <h1>Goal: 10 Cups</h1>
+    </div>
+   
+    <!-- add small cup of water (img) with oz amount also -->
+    <div id="parentCup">
+      <img src="" class="cupOfWater"></img>
+    </div>
+    <div>
+      <h3 class="waterDone"></h3>
+    </div>
+    
+    <div class="circleBackGround">
+      <img class="addedCups" src="/images/vase7.jpg" alt="vase" />
+    </div>
+    <div>
+      <p>Enter cups of water</p>
+    </div>
+    
+    <!-- onclick="addGlassOfH20()" -->
+    <div>
+      <button class="btn+"  id="plus">+</button>
+      <input id="input" class="waterInput" type="text" value="0" />
+      <button class="btn-" onclick="removeGlassOfH20()" id="minus">-</button>
+      <p id="invalidError"></p>
+    </div>
+   
+    <!-- <p>Cups</p> -->
+    <footer>
+      <h2>
+        Your skin, your hair, <br />
+        your mind and your body will thank you!
+      </h2>
+    </footer>
+    <script src="/3rdWaterApp/main3.js"></script>
+  </body>
+</html>
